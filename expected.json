@@ -1,0 +1,991 @@
+{
+ "cases": [
+  {
+   "fn": "cases",
+   "args": [
+    "850",
+    "24"
+   ],
+   "expect": "The 850 units at 24 units a case make 36 cases, the last case holding 10."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "850",
+    "130"
+   ],
+   "expect": "The 850 units at 130 units a week last 6 weeks with 70 units left."
+  },
+  {
+   "fn": "space",
+   "args": [
+    "36",
+    "9",
+    "48"
+   ],
+   "expect": "The 36 cases at 9 inches wide sit 5 to a 48 inch shelf, 3 inches left over; 8 shelves hold them, the last shelf taking 1."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "36",
+    "12.50",
+    "850"
+   ],
+   "expect": "The 36 cases at $12.50 a case come to $450.00, $0.53 a unit."
+  },
+  {
+   "fn": "cases",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 unit at 1 unit a case make 1 case, the last case holding 1."
+  },
+  {
+   "fn": "cases",
+   "args": [
+    "840",
+    "24"
+   ],
+   "expect": "The 840 units at 24 units a case make 35 cases, the last case holding 24."
+  },
+  {
+   "fn": "cases",
+   "args": [
+    "1000000",
+    "1000"
+   ],
+   "expect": "The 1000000 units at 1000 units a case make 1000 cases, the last case holding 1000."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 unit at 1 unit a week last 1 week with 0 units left."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "130",
+    "130"
+   ],
+   "expect": "The 130 units at 130 units a week last 1 week with 0 units left."
+  },
+  {
+   "fn": "space",
+   "args": [
+    "1",
+    "1",
+    "1"
+   ],
+   "expect": "The 1 case at 1 inch wide sit 1 to a 1 inch shelf, 0 inches left over; 1 shelf hold them, the last shelf taking 1."
+  },
+  {
+   "fn": "space",
+   "args": [
+    "5",
+    "48",
+    "48"
+   ],
+   "expect": "The 5 cases at 48 inches wide sit 1 to a 48 inch shelf, 0 inches left over; 5 shelves hold them, the last shelf taking 1."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "1",
+    "0.01",
+    "1"
+   ],
+   "expect": "The 1 case at $0.01 a case come to $0.01, $0.01 a unit."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "1000000",
+    "999.99",
+    "1000000"
+   ],
+   "expect": "The 1000000 cases at $999.99 a case come to $999990000.00, $999.99 a unit."
+  },
+  {
+   "fn": "cases",
+   "args": [
+    "316379",
+    "13"
+   ],
+   "expect": "The 316379 units at 13 units a case make 24337 cases, the last case holding 11."
+  },
+  {
+   "fn": "cases",
+   "args": [
+    "125205",
+    "840"
+   ],
+   "expect": "The 125205 units at 840 units a case make 150 cases, the last case holding 45."
+  },
+  {
+   "fn": "cases",
+   "args": [
+    "600226",
+    "508"
+   ],
+   "expect": "The 600226 units at 508 units a case make 1182 cases, the last case holding 278."
+  },
+  {
+   "fn": "cases",
+   "args": [
+    "463842",
+    "732"
+   ],
+   "expect": "The 463842 units at 732 units a case make 634 cases, the last case holding 486."
+  },
+  {
+   "fn": "cases",
+   "args": [
+    "743554",
+    "162"
+   ],
+   "expect": "The 743554 units at 162 units a case make 4590 cases, the last case holding 136."
+  },
+  {
+   "fn": "cases",
+   "args": [
+    "235540",
+    "762"
+   ],
+   "expect": "The 235540 units at 762 units a case make 310 cases, the last case holding 82."
+  },
+  {
+   "fn": "cases",
+   "args": [
+    "283849",
+    "660"
+   ],
+   "expect": "The 283849 units at 660 units a case make 431 cases, the last case holding 49."
+  },
+  {
+   "fn": "cases",
+   "args": [
+    "461851",
+    "671"
+   ],
+   "expect": "The 461851 units at 671 units a case make 689 cases, the last case holding 203."
+  },
+  {
+   "fn": "cases",
+   "args": [
+    "493727",
+    "870"
+   ],
+   "expect": "The 493727 units at 870 units a case make 568 cases, the last case holding 437."
+  },
+  {
+   "fn": "cases",
+   "args": [
+    "112313",
+    "656"
+   ],
+   "expect": "The 112313 units at 656 units a case make 172 cases, the last case holding 137."
+  },
+  {
+   "fn": "cases",
+   "args": [
+    "970497",
+    "167"
+   ],
+   "expect": "The 970497 units at 167 units a case make 5812 cases, the last case holding 60."
+  },
+  {
+   "fn": "cases",
+   "args": [
+    "580620",
+    "609"
+   ],
+   "expect": "The 580620 units at 609 units a case make 954 cases, the last case holding 243."
+  },
+  {
+   "fn": "cases",
+   "args": [
+    "338745",
+    "810"
+   ],
+   "expect": "The 338745 units at 810 units a case make 419 cases, the last case holding 165."
+  },
+  {
+   "fn": "cases",
+   "args": [
+    "718387",
+    "680"
+   ],
+   "expect": "The 718387 units at 680 units a case make 1057 cases, the last case holding 307."
+  },
+  {
+   "fn": "cases",
+   "args": [
+    "463708",
+    "673"
+   ],
+   "expect": "The 463708 units at 673 units a case make 690 cases, the last case holding 11."
+  },
+  {
+   "fn": "cases",
+   "args": [
+    "696325",
+    "836"
+   ],
+   "expect": "The 696325 units at 836 units a case make 833 cases, the last case holding 773."
+  },
+  {
+   "fn": "cases",
+   "args": [
+    "160652",
+    "879"
+   ],
+   "expect": "The 160652 units at 879 units a case make 183 cases, the last case holding 674."
+  },
+  {
+   "fn": "cases",
+   "args": [
+    "993686",
+    "851"
+   ],
+   "expect": "The 993686 units at 851 units a case make 1168 cases, the last case holding 569."
+  },
+  {
+   "fn": "cases",
+   "args": [
+    "531207",
+    "769"
+   ],
+   "expect": "The 531207 units at 769 units a case make 691 cases, the last case holding 597."
+  },
+  {
+   "fn": "cases",
+   "args": [
+    "331760",
+    "406"
+   ],
+   "expect": "The 331760 units at 406 units a case make 818 cases, the last case holding 58."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "76725",
+    "76617"
+   ],
+   "expect": "The 76725 units at 76617 units a week last 1 week with 108 units left."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "321797",
+    "74399"
+   ],
+   "expect": "The 321797 units at 74399 units a week last 4 weeks with 24201 units left."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "420973",
+    "87708"
+   ],
+   "expect": "The 420973 units at 87708 units a week last 4 weeks with 70141 units left."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "961003",
+    "42623"
+   ],
+   "expect": "The 961003 units at 42623 units a week last 22 weeks with 23297 units left."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "79484",
+    "21085"
+   ],
+   "expect": "The 79484 units at 21085 units a week last 3 weeks with 16229 units left."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "568278",
+    "82381"
+   ],
+   "expect": "The 568278 units at 82381 units a week last 6 weeks with 73992 units left."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "37904",
+    "14073"
+   ],
+   "expect": "The 37904 units at 14073 units a week last 2 weeks with 9758 units left."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "433431",
+    "42893"
+   ],
+   "expect": "The 433431 units at 42893 units a week last 10 weeks with 4501 units left."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "838089",
+    "80222"
+   ],
+   "expect": "The 838089 units at 80222 units a week last 10 weeks with 35869 units left."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "355832",
+    "70257"
+   ],
+   "expect": "The 355832 units at 70257 units a week last 5 weeks with 4547 units left."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "159172",
+    "2850"
+   ],
+   "expect": "The 159172 units at 2850 units a week last 55 weeks with 2422 units left."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "225722",
+    "86806"
+   ],
+   "expect": "The 225722 units at 86806 units a week last 2 weeks with 52110 units left."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "836034",
+    "90891"
+   ],
+   "expect": "The 836034 units at 90891 units a week last 9 weeks with 18015 units left."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "256765",
+    "23164"
+   ],
+   "expect": "The 256765 units at 23164 units a week last 11 weeks with 1961 units left."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "392099",
+    "83817"
+   ],
+   "expect": "The 392099 units at 83817 units a week last 4 weeks with 56831 units left."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "938041",
+    "7754"
+   ],
+   "expect": "The 938041 units at 7754 units a week last 120 weeks with 7561 units left."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "115621",
+    "31658"
+   ],
+   "expect": "The 115621 units at 31658 units a week last 3 weeks with 20647 units left."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "520753",
+    "44061"
+   ],
+   "expect": "The 520753 units at 44061 units a week last 11 weeks with 36082 units left."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "645191",
+    "95285"
+   ],
+   "expect": "The 645191 units at 95285 units a week last 6 weeks with 73481 units left."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "138869",
+    "94290"
+   ],
+   "expect": "The 138869 units at 94290 units a week last 1 week with 44579 units left."
+  },
+  {
+   "fn": "space",
+   "args": [
+    "971391",
+    "50",
+    "84"
+   ],
+   "expect": "The 971391 cases at 50 inches wide sit 1 to a 84 inch shelf, 34 inches left over; 971391 shelves hold them, the last shelf taking 1."
+  },
+  {
+   "fn": "space",
+   "args": [
+    "65823",
+    "38",
+    "548"
+   ],
+   "expect": "The 65823 cases at 38 inches wide sit 14 to a 548 inch shelf, 16 inches left over; 4702 shelves hold them, the last shelf taking 9."
+  },
+  {
+   "fn": "space",
+   "args": [
+    "151456",
+    "37",
+    "915"
+   ],
+   "expect": "The 151456 cases at 37 inches wide sit 24 to a 915 inch shelf, 27 inches left over; 6311 shelves hold them, the last shelf taking 16."
+  },
+  {
+   "fn": "space",
+   "args": [
+    "601013",
+    "9",
+    "715"
+   ],
+   "expect": "The 601013 cases at 9 inches wide sit 79 to a 715 inch shelf, 4 inches left over; 7608 shelves hold them, the last shelf taking 60."
+  },
+  {
+   "fn": "space",
+   "args": [
+    "582530",
+    "9",
+    "562"
+   ],
+   "expect": "The 582530 cases at 9 inches wide sit 62 to a 562 inch shelf, 4 inches left over; 9396 shelves hold them, the last shelf taking 40."
+  },
+  {
+   "fn": "space",
+   "args": [
+    "945767",
+    "93",
+    "901"
+   ],
+   "expect": "The 945767 cases at 93 inches wide sit 9 to a 901 inch shelf, 64 inches left over; 105086 shelves hold them, the last shelf taking 2."
+  },
+  {
+   "fn": "space",
+   "args": [
+    "227246",
+    "58",
+    "828"
+   ],
+   "expect": "The 227246 cases at 58 inches wide sit 14 to a 828 inch shelf, 16 inches left over; 16232 shelves hold them, the last shelf taking 12."
+  },
+  {
+   "fn": "space",
+   "args": [
+    "686071",
+    "64",
+    "776"
+   ],
+   "expect": "The 686071 cases at 64 inches wide sit 12 to a 776 inch shelf, 8 inches left over; 57173 shelves hold them, the last shelf taking 7."
+  },
+  {
+   "fn": "space",
+   "args": [
+    "149468",
+    "79",
+    "473"
+   ],
+   "expect": "The 149468 cases at 79 inches wide sit 5 to a 473 inch shelf, 78 inches left over; 29894 shelves hold them, the last shelf taking 3."
+  },
+  {
+   "fn": "space",
+   "args": [
+    "408237",
+    "12",
+    "186"
+   ],
+   "expect": "The 408237 cases at 12 inches wide sit 15 to a 186 inch shelf, 6 inches left over; 27216 shelves hold them, the last shelf taking 12."
+  },
+  {
+   "fn": "space",
+   "args": [
+    "281851",
+    "17",
+    "321"
+   ],
+   "expect": "The 281851 cases at 17 inches wide sit 18 to a 321 inch shelf, 15 inches left over; 15659 shelves hold them, the last shelf taking 7."
+  },
+  {
+   "fn": "space",
+   "args": [
+    "226960",
+    "80",
+    "222"
+   ],
+   "expect": "The 226960 cases at 80 inches wide sit 2 to a 222 inch shelf, 62 inches left over; 113480 shelves hold them, the last shelf taking 2."
+  },
+  {
+   "fn": "space",
+   "args": [
+    "876514",
+    "43",
+    "226"
+   ],
+   "expect": "The 876514 cases at 43 inches wide sit 5 to a 226 inch shelf, 11 inches left over; 175303 shelves hold them, the last shelf taking 4."
+  },
+  {
+   "fn": "space",
+   "args": [
+    "802253",
+    "91",
+    "491"
+   ],
+   "expect": "The 802253 cases at 91 inches wide sit 5 to a 491 inch shelf, 36 inches left over; 160451 shelves hold them, the last shelf taking 3."
+  },
+  {
+   "fn": "space",
+   "args": [
+    "517457",
+    "21",
+    "166"
+   ],
+   "expect": "The 517457 cases at 21 inches wide sit 7 to a 166 inch shelf, 19 inches left over; 73923 shelves hold them, the last shelf taking 3."
+  },
+  {
+   "fn": "space",
+   "args": [
+    "43433",
+    "9",
+    "680"
+   ],
+   "expect": "The 43433 cases at 9 inches wide sit 75 to a 680 inch shelf, 5 inches left over; 580 shelves hold them, the last shelf taking 8."
+  },
+  {
+   "fn": "space",
+   "args": [
+    "755534",
+    "57",
+    "951"
+   ],
+   "expect": "The 755534 cases at 57 inches wide sit 16 to a 951 inch shelf, 39 inches left over; 47221 shelves hold them, the last shelf taking 14."
+  },
+  {
+   "fn": "space",
+   "args": [
+    "613084",
+    "35",
+    "278"
+   ],
+   "expect": "The 613084 cases at 35 inches wide sit 7 to a 278 inch shelf, 33 inches left over; 87584 shelves hold them, the last shelf taking 3."
+  },
+  {
+   "fn": "space",
+   "args": [
+    "46951",
+    "17",
+    "524"
+   ],
+   "expect": "The 46951 cases at 17 inches wide sit 30 to a 524 inch shelf, 14 inches left over; 1566 shelves hold them, the last shelf taking 1."
+  },
+  {
+   "fn": "space",
+   "args": [
+    "99542",
+    "73",
+    "264"
+   ],
+   "expect": "The 99542 cases at 73 inches wide sit 3 to a 264 inch shelf, 45 inches left over; 33181 shelves hold them, the last shelf taking 2."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "643712",
+    "525.38",
+    "314224"
+   ],
+   "expect": "The 643712 cases at $525.38 a case come to $338193410.56, $1076.28 a unit."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "687245",
+    "32.47",
+    "243823"
+   ],
+   "expect": "The 687245 cases at $32.47 a case come to $22314845.15, $91.52 a unit."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "416258",
+    "966.6",
+    "178092"
+   ],
+   "expect": "The 416258 cases at $966.60 a case come to $402354982.80, $2259.25 a unit."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "60584",
+    "966.26",
+    "573973"
+   ],
+   "expect": "The 60584 cases at $966.26 a case come to $58539895.84, $101.99 a unit."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "357673",
+    "556.68",
+    "932748"
+   ],
+   "expect": "The 357673 cases at $556.68 a case come to $199109405.64, $213.47 a unit."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "229395",
+    "203.51",
+    "134636"
+   ],
+   "expect": "The 229395 cases at $203.51 a case come to $46684176.45, $346.74 a unit."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "191252",
+    "836.82",
+    "718752"
+   ],
+   "expect": "The 191252 cases at $836.82 a case come to $160043498.64, $222.67 a unit."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "941849",
+    "603.64",
+    "20762"
+   ],
+   "expect": "The 941849 cases at $603.64 a case come to $568537730.36, $27383.57 a unit."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "487217",
+    "577.87",
+    "375460"
+   ],
+   "expect": "The 487217 cases at $577.87 a case come to $281548087.79, $749.88 a unit."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "264751",
+    "579.35",
+    "316092"
+   ],
+   "expect": "The 264751 cases at $579.35 a case come to $153383491.85, $485.25 a unit."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "70743",
+    "329.02",
+    "915855"
+   ],
+   "expect": "The 70743 cases at $329.02 a case come to $23275861.86, $25.41 a unit."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "931050",
+    "448.61",
+    "617716"
+   ],
+   "expect": "The 931050 cases at $448.61 a case come to $417678340.50, $676.17 a unit."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "419377",
+    "182.57",
+    "630515"
+   ],
+   "expect": "The 419377 cases at $182.57 a case come to $76565658.89, $121.43 a unit."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "613289",
+    "764.51",
+    "80089"
+   ],
+   "expect": "The 613289 cases at $764.51 a case come to $468865573.39, $5854.31 a unit."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "562458",
+    "396.34",
+    "690753"
+   ],
+   "expect": "The 562458 cases at $396.34 a case come to $222924603.72, $322.73 a unit."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "793150",
+    "25.53",
+    "474381"
+   ],
+   "expect": "The 793150 cases at $25.53 a case come to $20249119.50, $42.69 a unit."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "558726",
+    "213.68",
+    "506885"
+   ],
+   "expect": "The 558726 cases at $213.68 a case come to $119388571.68, $235.53 a unit."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "858135",
+    "563.11",
+    "936870"
+   ],
+   "expect": "The 858135 cases at $563.11 a case come to $483224399.85, $515.79 a unit."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "738045",
+    "796.91",
+    "550515"
+   ],
+   "expect": "The 738045 cases at $796.91 a case come to $588155440.95, $1068.37 a unit."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "950985",
+    "235.45",
+    "934511"
+   ],
+   "expect": "The 950985 cases at $235.45 a case come to $223909418.25, $239.60 a unit."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "41874",
+    "288.95",
+    "940565"
+   ],
+   "expect": "The 41874 cases at $288.95 a case come to $12099492.30, $12.86 a unit."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "244979",
+    "759.35",
+    "178909"
+   ],
+   "expect": "The 244979 cases at $759.35 a case come to $186024803.65, $1039.77 a unit."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "303610",
+    "326.13",
+    "217407"
+   ],
+   "expect": "The 303610 cases at $326.13 a case come to $99016329.30, $455.44 a unit."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "58865",
+    "42.83",
+    "983557"
+   ],
+   "expect": "The 58865 cases at $42.83 a case come to $2521187.95, $2.56 a unit."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "822314",
+    "284.52",
+    "70891"
+   ],
+   "expect": "The 822314 cases at $284.52 a case come to $233964779.28, $3300.35 a unit."
+  }
+ ],
+ "errors": [
+  [
+   "cases",
+   [
+    "0",
+    "24"
+   ]
+  ],
+  [
+   "cases",
+   [
+    "1000001",
+    "24"
+   ]
+  ],
+  [
+   "cases",
+   [
+    "3.5",
+    "24"
+   ]
+  ],
+  [
+   "cases",
+   [
+    "850",
+    "0"
+   ]
+  ],
+  [
+   "cases",
+   [
+    "850",
+    "1001"
+   ]
+  ],
+  [
+   "cases",
+   [
+    "850",
+    "x"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "0",
+    "130"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "850",
+    "0"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "850",
+    "100001"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "850",
+    "1.5"
+   ]
+  ],
+  [
+   "space",
+   [
+    "0",
+    "9",
+    "48"
+   ]
+  ],
+  [
+   "space",
+   [
+    "36",
+    "0",
+    "48"
+   ]
+  ],
+  [
+   "space",
+   [
+    "36",
+    "101",
+    "48"
+   ]
+  ],
+  [
+   "space",
+   [
+    "36",
+    "9",
+    "1001"
+   ]
+  ],
+  [
+   "space",
+   [
+    "36",
+    "48",
+    "9"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "0",
+    "12.50",
+    "850"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "36",
+    "0",
+    "850"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "36",
+    "1000",
+    "850"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "36",
+    "12.505",
+    "850"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "36",
+    "12.50",
+    "0"
+   ]
+  ]
+ ]
+}
