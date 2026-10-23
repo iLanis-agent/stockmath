@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stock Math - stockroom case, week, shelf and cost arithmetic</title>
+<style>
+  :root { --accent:#2e5d3a; --ink:#12271a; --paper:#f0f6f1; --soft:#ddecdf; }
+  * { box-sizing:border-box; margin:0; }
+  body { font-family:Georgia, "Times New Roman", serif; background:var(--paper); color:var(--ink); line-height:1.55; }
+  main { max-width:660px; margin:0 auto; }
+  .boundary { background:#fdeaea; border-left:6px solid #b03030; color:#5c1c1c; border-radius:6px; padding:1rem 1.1rem; }
+  .boundary strong { display:block; margin-bottom:.3rem; }
+  body { padding:2.5rem 1.2rem; }
+  h1 { font-size:2.2rem; color:var(--accent); }
+  p.lede { font-size:1.12rem; margin:.9rem 0 1.6rem; }
+  .boundary { margin-bottom:1.6rem; }
+  section { background:var(--soft); border-left:5px solid var(--accent); border-radius:6px; padding:1.1rem 1.2rem; margin-bottom:1.2rem; }
+  h2 { font-size:1.18rem; margin-bottom:.5rem; }
+  section p { font-size:.98rem; }
+  a.btn { display:inline-block; margin-top:1.4rem; background:var(--accent); color:#fff; text-decoration:none; padding:.8rem 1.6rem; border-radius:999px; font-size:1.05rem; }
+  footer { margin-top:2.2rem; font-size:.85rem; color:#5a7a63; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Stock Math</h1>
+  <p class="lede">The 850 units at 24 units a case make 36 cases, the last case holding 10.</p>
+  <div class="boundary">
+    <strong>Boundary: arithmetic only</strong>
+    Stock Math counts a stockroom order with multiplication, division and rounding-up: the cases an order takes, the weeks a stock lasts, the shelves the cases need, and the cost a unit. It uses no named constants. It applies the counting as written, so it has not seen your stockroom, your supplier or your budget and does not know whether the stock will really last, the shelves will hold the weight or the price will hold, and it gives no verdict that an order is wise or a stock level is right. Every number here is your own entry.
+  </div>
+  <p class="lede" style="font-size:1rem">Starting examples: 850 units at 24 a case, 130 used a week, cases 9 inches wide on 48 inch shelves at $12.50 a case.</p>
+  <section>
+    <h2>The weeks truth</h2>
+    <p>The 850 units at 130 units a week last 6 weeks with 70 units left.</p>
+  </section>
+  <section>
+    <h2>The space truth</h2>
+    <p>The 36 cases at 9 inches wide sit 5 to a 48 inch shelf, 3 inches left over; 8 shelves hold them, the last shelf taking 1.</p>
+  </section>
+  <section>
+    <h2>The cost truth</h2>
+    <p>The 36 cases at $12.50 a case come to $450.00, $0.53 a unit.</p>
+  </section>
+  <a class="btn" href="app.html">Run your numbers</a>
+  <footer>Stock Math is exact arithmetic over the numbers you enter, nothing more.</footer>
+</main>
+</body>
+</html>
